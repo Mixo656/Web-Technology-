@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            display: flex;
+            margin: 20px;
+        }
+        article {
+            flex: 3;
+            background-color: #fff;
+            padding: 20px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+        aside {
+            flex: 1;
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        figure {
+            text-align: center;
+            margin: 20px 0;
+        }
+        figure img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        figure figcaption {
+            font-style: italic;
+            color: #555;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Daily Times</h1>
+        <p>Latest News & Updates</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#world">World</a>
+        <a href="#politics">Politics</a>
+        <a href="#sports">Sports</a>
+        <a href="#entertainment">Entertainment</a>
+    </nav>
+    <section>
+        <article>
+            <h2>Main Headline</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vitae dapibus scelerisque, orci sem malesuada magna, in commodo quam libero eget enim.</p>
+            <figure>
+                <img src="https://via.placeholder.com/800x400" alt="News Image">
+                <figcaption>A relevant caption for the above news image.</figcaption>
+            </figure>
+            <h3>World Statistics</h3>
+            <table>
+                <tr>
+                    <th>Country</th>
+                    <th>Population</th>
+                    <th>GDP</th>
+                </tr>
+                <tr>
+                    <td>USA</td>
+                    <td>331 million</td>
+                    <td>$21 trillion</td>
+                </tr>
+                <tr>
+                    <td>China</td>
+                    <td>1.4 billion</td>
+                    <td>$14 trillion</td>
+                </tr>
+                <tr>
+                    <td>India</td>
+                    <td>1.38 billion</td>
+                    <td>$2.9 trillion</td>
+                </tr>
+            </table>
+        </article>
+        <aside>
+            <h3>Breaking News</h3>
+            <p>Stay updated with the latest breaking news happening around the world.</p>
+        </aside>
+    </section>
+    <footer>
+        <p>&copy; 2024 The Daily Times. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
