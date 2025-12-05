@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Time Table</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: orange;
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+        margin: 0;
+    }
+    .timetable {
+        width: 90%;
+        max-width: 1000px;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    th, td {
+        border: 2px solid #000;
+        padding: 10px;
+    }
+    th { background: #f0f0f0; }
+    caption { font-size: 1.5em; font-weight: bold; margin: 10px; }
+    
+    /* Colors */
+    .lab { background: #ffcccb; }
+    .ele { background: coral; }
+    .lunch { background: #e6ffe6; font-weight: bold; }
+    .mini { background: #f9d0d0; }
+    
+    tfoot td {
+        background: #d9ead3;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+
+<div class="timetable">
+    <h2 style="text-align:center">Class Time Table</h2>
+    
+    <table>
+        <caption>Weekly Schedule</caption>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>9:00<br>9:55</th>
+                <th>9:55<br>11:00</th>
+                <th>11:10<br>12:05</th>
+                <th>12:05<br>1:00</th>
+                <th>1:00<br>1:55</th>
+                <th>1:55<br>2:50</th>
+                <th>2:50<br>3:45</th>
+                <th>3:45<br>4:40</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mon</td>
+                <td>SE & Project</td>
+                <td>Computer Network</td>
+                <td colspan="2" class="mini">Mini Project</td>
+                <td rowspan="5" class="lunch">Lunch<br>Break</td>
+                <td>Theory of Computation</td>
+                <td>AI</td>
+                <td>Research Methodology</td>
+            </tr>
+            <tr>
+                <td>Tue</td>
+                <td colspan="2" class="lab">CN Lab</td>
+                <td>Theory of Computation</td>
+                <td>Research Methodology</td>
+                <td>Computer Network</td>
+                <td>SE & Project</td>
+                <td>Counselling</td>
+            </tr>
+            <tr>
+                <td>Wed</td>
+                <td class="ele">Env. Studies</td>
+                <td>SE & Project</td>
+                <td>Research Methodology</td>
+                <td>Computer Network</td>
+                <td>Theory of Computation</td>
+                <td>AI</td>
+                <td>Certification</td>
+            </tr>
+            <tr>
+                <td>Thu</td>
+                <td>Theory of Computation</td>
+                <td>AI</td>
+                <td class="ele">NSS / Yoga / Sports</td>
+                <td>Research Methodology</td>
+                <td colspan="3">Association</td>
+            </tr>
+            <tr>
+                <td>Fri</td>
+                <td>Research Methodology</td>
+                <td class="mini">Mini Project</td>
+                <td>SE & Project</td>
+                <td>Library</td>
+                <td>Computer Network</td>
+                <td>Theory of Computation</td>
+                <td>Association</td>
+            </tr>
+            <tr>
+                <td>Sat</td>
+                <td>AI</td>
+                <td>SE & Project</td>
+                <td colspan="2" class="lab">Web Tech Lab</td>
+                <td colspan="4">-</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr><td colspan="9">End of Time Table</td></tr>
+        </tfoot>
+    </table>
+</div>
+
+</body>
+</html>
