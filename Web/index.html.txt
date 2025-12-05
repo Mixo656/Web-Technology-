@@ -3,26 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CSS Selectors Demo</title>
+<title>CSS Selectors Demo - Car Show</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h2>This is an H2 Heading</h2>
-<h3>This is an H3 Heading</h3>
+<h2>Welcome to the Annual Car Show</h2>
+<h3>Featuring the Maruti Suzuki Swift</h3>
 <hr>
-<p>This is a paragraph demonstrating different <span class="highlight">inline</span> and block elements.
-You can see how CSS is applied based on different selectors.</p><div class="box">
-<p>This is a paragraph inside a div. Div elements are often used for grouping content.</p>
+<p>
+ This year’s car show highlights the sleek and stylish <span class="highlight">Maruti Suzuki Swift</span>, known for its performance and design. The <span class="highlight">Swift</span> offers a dynamic driving experience with its fuel-efficient 1.2L K-series petrol engine, modern interiors, and advanced safety features like dual airbags and ABS with EBD, making it a standout at the event. Visitors can test drive the Swift to experience its responsive handling and explore its vibrant color options, such as Pearl Arctic White and Fire Red.</p>
+<div class="box">
+<p> Swift to experience its responsive handling and explore its vibrant color options, such as Pearl Arctic White and Fire Red.</p>
 </div>
 <time datetime="2024-10-17">October 17, 2024</time>
+
 <img
-src="https://via.placeholder.com/150"
-alt="Placeholder Image"
+src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Swift/9226/1755777061785/front-left-side-47.jpg?imwidth=420&impolicy=resize"
+alt="Maruti Suzuki Swift"
 class="image-class">
 <p>Visit our
 <a
-href="https://example.com"
+href="https://www.marutisuzuki.com/swift"
 target="_blank"
-class="link">website</a> for more information.</p>
+class="link">website</a> for more information about the Swift and the car show.</p>
 </body>
 </html>
+
